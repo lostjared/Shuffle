@@ -1,10 +1,6 @@
 #!/usr/bin/perl
 use List::Util qw(shuffle);
 my @items;
-while (<STDIN>) {
-	push(@items, $_);
-}
+while (<>) { push(@items, $_); }
 @items = shuffle(@items);
-foreach my $i (@items) {
-	print $i;
-}
+foreach my $i (@items) { print $i; }
