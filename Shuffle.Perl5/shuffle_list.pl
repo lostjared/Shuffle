@@ -1,4 +1,4 @@
-#!/usr/sbin/perl
+#!/usr/bin/perl
 use List::Util qw(shuffle);
 my @items;
 while (<STDIN>) {
